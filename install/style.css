@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+  background: #111;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.installer-container {
+  background: #222;
+  padding: 2em;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin: 1em 0;
+}
+
+input {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.2em;
+  background: #333;
+  color: white;
+  border: 1px solid #444;
+}
+
+button {
+  padding: 0.7em;
+  width: 100%;
+  background: #28a745;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+.success {
+  color: #00ff88;
+}
+
+.error {
+  color: #ff4444;
+}

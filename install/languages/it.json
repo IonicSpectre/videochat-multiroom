@@ -1,0 +1,12 @@
+{
+  "title": "Installazione Ionic Videochat",
+  "db_host": "Host Database",
+  "db_port": "Porta",
+  "db_name": "Nome Database",
+  "db_user": "Utente Database",
+  "db_pass": "Password Database",
+  "founder_user": "Username Founder",
+  "founder_pass": "Password Founder",
+  "reset_key": "Password Ripristino Totale",
+  "install": "Installa"
+}

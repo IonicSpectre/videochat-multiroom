@@ -1,0 +1,12 @@
+{
+  "title": "Ionic Videochat Installer",
+  "db_host": "Database Host",
+  "db_port": "Port",
+  "db_name": "Database Name",
+  "db_user": "Database User",
+  "db_pass": "Database Password",
+  "founder_user": "Founder Username",
+  "founder_pass": "Founder Password",
+  "reset_key": "Reset Key",
+  "install": "Install"
+}

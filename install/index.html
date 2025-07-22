@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Installazione Ionic Videochat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="installer-container">
+    <h1>Ionic Videochat Installer</h1>
+    <form id="install-form">
+      <label>Host Database: <input type="text" name="host" required /></label>
+      <label>Porta: <input type="text" name="port" value="3306" /></label>
+      <label>Nome Database: <input type="text" name="database" required /></label>
+      <label>Utente Database: <input type="text" name="user" required /></label>
+      <label>Password Database: <input type="password" name="password" required /></label>
+      <label>Username Founder: <input type="text" name="founder_user" required /></label>
+      <label>Password Founder: <input type="password" name="founder_pass" required /></label>
+      <label>Password Ripristino Totale: <input type="password" name="reset_key" required /></label>
+      <button type="submit">Installa</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  <script src="install.js"></script>
+</body>
+</html>
